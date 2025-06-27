@@ -3,9 +3,6 @@ import logging
 from config.constants import COINGECKO_API_URL
 from typing import List, Dict
 
-def fetch_crypto_data() -> List[Dict[str, float]]:
-    """Returns a list of coin data dictionaries"""
-
 def fetch_crypto_data():
     """Fetches data from CoinGecko API with error handling"""
     try:
